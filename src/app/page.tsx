@@ -46,7 +46,7 @@ export default function Home() {
           <div className="bg-lightGray h-10 rounded flex justify-between items-center px-4 border-lightGray border-2 focus-within:border-strongCyan">
             <DollarSignComponent />
             <div className="flex-grow">
-              <input name="bill" type="number" className="w-full text-right outline-none bg-transparent no-spin"
+              <input name="bill" type="number" placeholder="0" className="w-full text-right outline-none bg-transparent no-spin text-grayCyan"
                 value={dollarInput}
                 onChange={(e) => { 
                   let inputValue = parseFloat(e.target.value);
@@ -132,14 +132,15 @@ export default function Home() {
           <div className={`bg-lightGray h-10 rounded flex justify-between items-center px-4 ${selectedValue != '' && dollarInput > 0 && peopleInput == 0 ? 'border-orange-600' : 'border-lightGray'} border-2 focus-within:border-strongCyan`}>
             <PersonIconComponent />
             <div className="flex-grow">
-              <input name="people" type="number" className="w-full text-right outline-none bg-transparent no-spin"
+              <input name="people" type="number" placeholder="0" className="w-full text-right outline-none bg-transparent no-spin text-grayCyan"
                 value={peopleInput}
                 onChange={(e) => { 
                   let inputValue = parseInt(e.target.value);
                   if (!isNaN(inputValue) && inputValue >= 1 && inputValue <= 100) {
                     setPeopleInput(inputValue);
                   }
-                }}
+                }
+              }
                 step={1}
                 min={1}
                 max={100} />

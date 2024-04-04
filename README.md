@@ -6,6 +6,8 @@
 # Peer Reviewer: Jeriah Marson
 # Peer Review: It looks great over all and is formated correctly but the Tip Amount and Total text color look slightly off and the active color for the buttons stay white when they should change once clicked. Also the values of the inputs can never go to 0 once you put something in so you have to press the reset button. But those are small nitpicks. over all great job
 
+# Need to rework my input fields. I have my logic and my orange text field saying "Cannot be Zero" setup to where i need there to be a int of 0 instead of a placeholder 0 inside the input field if that makes any sense. I sorta know what i need to do but i do not have enough time to do it. Will rework it over the weekend for peace of mind.
+
 ![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
