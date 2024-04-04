@@ -3,8 +3,8 @@
 # In this project i recreated a calculator for tips using a style guide in nextjs
 # 1/1/24
 
-# Peer Reviewer:
-# Peer Review
+# Peer Reviewer: Jeriah Marson
+# Peer Review: It looks great over all and is formated correctly but the Tip Amount and Total text color look slightly off and the active color for the buttons stay white when they should change once clicked. Also the values of the inputs can never go to 0 once you put something in so you have to press the reset button. But those are small nitpicks. over all great job
 
 ![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
 
